@@ -1,5 +1,12 @@
 # Swift 1.5 (Qwen3.8-27B family) on 4× V100: 1Cat-vLLM 1.5.1 serving recipe and A/B against Qwen
 
+<!-- pli:blurb:start -->
+
+> Published by [PLI Labs](https://proprietarylegal.ai/labs.html), the open research arm of [Proprietary Legal Intelligence](https://proprietarylegal.ai). PLI builds AI systems around a legal organization's own work product, combining retrieval, staged workflows, validation, and attorney review. Visit [proprietarylegal.ai](https://proprietarylegal.ai) to explore our work and discuss what your organization needs.
+
+<!-- pli:blurb:end -->
+
+
 **Serving recipe and measurements, not model weights.** PLI Labs runs Swift 1.5, a Qwen3.8-27B fine-tune by UkisAI, as its
 default local legal-drafting model on owned V100-SXM2-32GB hardware. This repository publishes the exact launch profile, the
 power settings it runs under, and a measured comparison with the regular Qwen3.8-27B NVFP4 build on the same stack.
@@ -129,3 +136,19 @@ affiliated with UkisAI, Alibaba Cloud, 1CatAI or the DFlash authors.
 - https://proprietarylegal.com
 - https://proprietarylegal.ai
 - [PLI Labs hub repo](https://github.com/ProprietaryLegal/pli-labs) (V100 research index: research/v100)
+
+<!-- pli:footer:start -->
+
+---
+
+## About PLI Labs
+
+“Your proprietary work product is your proprietary intelligence.” PLI Labs is the open research arm of Proprietary Legal Intelligence. We publish legal model prunes, serving recipes for owned hardware, and open-source tools so readers can inspect our methods and test our claims before hiring us.
+
+Founded by a practicing trial lawyer, PLI builds AI systems around a legal organization's own work product: retrieval, staged workflows, validation, and attorney review. The approach grew from systems running on live matters in a litigation practice. Our consulting work supports deployment through approved frontier APIs, private cloud, or open-weight models on hardware you own. Explore the research or contact us about your organization's work.
+
+[Website](https://proprietarylegal.ai) · [PLI Labs](https://proprietarylegal.ai/labs.html) · [Research](https://proprietarylegal.ai/research/index.html) · [GitHub](https://github.com/ProprietaryLegal) · [Hugging Face](https://huggingface.co/ProprietaryLegal) · [Contact](https://proprietarylegal.ai/contact.html)
+
+Proprietary Legal Intelligence LLC is a technology consultancy, not a law firm, and does not provide legal services or legal advice.
+
+<!-- pli:footer:end -->
