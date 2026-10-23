@@ -1,0 +1,21 @@
+Swift 1.5 / Qwen3.8-27B on 4x V100: serving recipe
+Copyright 2026 ProprietaryLegal (PLI Labs)
+
+The scripts and documentation in this directory are licensed under the Apache License, Version 2.0 (see LICENSE).
+This directory contains no model weights and redistributes no third-party code.
+
+The launch arguments follow the 1Cat-vLLM 1.5.1 release 27B command:
+  1Cat-vLLM, https://github.com/1CatAI/1Cat-vLLM, Apache License 2.0.
+
+Models this recipe serves or compares against (downloaded separately by the user, under their own terms):
+  Swift 1.5 (ukisai/Swift-1.5-Qwen3.8-27b-NVFP4), Copyright 2026 UkisAI.
+    Swift Contribution licensed under the Swift Open License v1.0
+    (https://huggingface.co/ukisai/Swift-1.5-Qwen3.8-27b/blob/main/LICENSE). Commercial use is licensed only for an
+    entity below the licence's revenue Threshold (US$1,000,000 gross revenue). Derivative of Qwen3.8-27B,
+    Copyright 2026 Alibaba Cloud, Apache License 2.0.
+  Qwen3.8-27B (Qwen/Qwen3.8-27B), Copyright 2026 Alibaba Cloud, Apache License 2.0.
+  Qwen3.8-27B QUASAR NVFP4 (QUASAR-QAT/Qwen3.8-27B-QUASAR-NVFP4), Apache License 2.0.
+  DFlash2 drafter (incoai/Qwen3.8-27B-DFlash2; mirror z-lab/Qwen3.8-27B-DFlash2), Apache License 2.0.
+
+"Swift" and "UkisAI" are names of UkisAI, used only to identify the model. PLI Labs is not affiliated with UkisAI,
+Alibaba Cloud, 1CatAI or the DFlash authors.
